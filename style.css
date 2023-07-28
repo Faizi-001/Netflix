@@ -1,0 +1,52 @@
+#first-page {
+  background-image: url(img/cover.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+::placeholder{
+  color: #fff !important;
+  font-weight: 500 !important;
+}
+.bgc {
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.966),
+    rgba(0, 0, 0, 0.418)
+  );
+  height: 100vh;
+}
+
+.default-ltr-cache-1d568uk {
+  width: 9.25rem;
+  height: 2.5rem;
+  color: rgb(229, 9, 20);
+  fill: currentColor;
+  display: block;
+}
+.video_play {
+  z-index: 1;
+  overflow: hidden;
+  max-width: 60%;
+  max-height: 60%;
+  position: relative;
+  top: -33%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.video_play-2 {
+  z-index: 1;
+  overflow: hidden;
+  max-width: 50%;
+  max-height: 50%;
+  position: relative;
+  top: -43%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
